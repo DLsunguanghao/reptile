@@ -101,7 +101,7 @@ public class Test {
     public static void main(String[] args) {
         String url="http://www.meitubar.com";
         Test test=new Test();
-        for (int i = 1; i <100 ; i++) {
+        for (int i = 1; i <30 ; i++) {
             String ur=url+"/photos/?page="+i;
             System.out.println("页面路径:"+ur);
             String html=test.getHtml(ur);
